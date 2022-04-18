@@ -1,0 +1,24 @@
+.tabs {
+	display: flex;
+	background: #705400;
+	padding: 10px 10px 0px 10px;
+}
+
+.tabs-item {
+	flex: 1 0 auto;
+	text-align: center;
+	background: #dba504;
+	opacity: 0.7;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.tabs-item.active {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	opacity: 1;
+}
+
+.tabs-item:hover {
+	opacity: 1;
+}
