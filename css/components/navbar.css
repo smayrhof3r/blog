@@ -1,14 +1,28 @@
 nav {
+  background-color: darkgray;
+  height: 50px;
   display: flex;
   align-items: center;
-  justify-content: left;
-  background-color: rgb(179, 176, 176);
 }
 
-a {
+nav li {
+  padding: 18px;
+}
+
+nav li:hover {
+  padding: 18px;
+  background-color: #00032B
+}
+
+nav a {
   text-decoration: none;
   color: white;
-  padding: 20px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
 
 .nav-list {
