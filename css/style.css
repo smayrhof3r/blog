@@ -9,8 +9,11 @@
 @import url("components/banner.css");
 @import url("components/tabs.css");
 @import url("components/list.css");
-
+@import url("components/navbar.css");
 /* --- Fonts --- */
+* {
+  margin: 0
+}
 body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
   padding-bottom: 200px;

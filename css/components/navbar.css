@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: rgb(179, 176, 176);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.nav-list {
+  align-items: center;
+}
+.nav-list li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+  color: white;
+}
