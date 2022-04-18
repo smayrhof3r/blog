@@ -1,5 +1,5 @@
 nav {
-  background-color: darkgray;
+  background-color: #463F3A;
   height: 50px;
   display: flex;
   align-items: center;
@@ -11,7 +11,14 @@ nav li {
 
 nav li:hover {
   padding: 18px;
-  background-color: #00032B
+  background-color: #E0AFA0;
+  opacity: 50%;
+}
+
+nav li .active {
+  padding: 18px;
+  background-color: #E0AFA0;
+
 }
 
 nav a {
