@@ -28,7 +28,6 @@
 
 img.post-card-image {
   max-height: 200px;
-
 }
 
 .post-card-content {
@@ -65,9 +64,14 @@ img.post-card-image {
     display: none;
   }
   .post-card-content p {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .post-card-content h2 {
+    font-size: 3.5vw;
+    color: rgb(251, 133, 0);
+    line-height: 4vw;
+  }
+  .post-card-content h1 {
     font-size: 4vw;
     color: rgb(251, 133, 0);
     line-height: 4vw;
