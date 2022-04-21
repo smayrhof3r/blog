@@ -1,35 +1,44 @@
 
 /* colour template */
-/* #463F3A dark g
-/* #8A817C med g
-/* #BCB8B1 light g
+/* 2, 48, 71 darkblue
+/* 18, 103, 130 blue
+/* 33, 158, 188 blue
+/* 142, 202, 230 light blue
+/* 255, 183, 3 light orange
+/* 253, 158, 2 orange
+/* 251, 133, 0 darkorange
+
 /* #F4F3EE white
-/* #E0AFA0 pink
 
 /* --- Components design --- */
+@import url("components/flexbox.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
 @import url("components/avatar.css");
-@import url("components/button.css");
+@import url("components/list.css");
+@import url("components/banner.css");
+/* @import url("components/button.css");
 @import url("components/dropdown.css");
 @import url("components/card.css");
 @import url("components/badge.css");
-@import url("components/banner.css");
-@import url("components/tabs.css");
-@import url("components/list.css");
-@import url("components/navbar.css");
+;
+@import url("components/tabs.css"); */
+
 
 /* --- Fonts --- */
 body {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
-  padding-bottom: 200px;
-  font-size: 14px;
+  font-family: "Roboto", "Helvetica", "sans-serif";
+  font-weight: 300;
+  font-size: 20px;
   background-color: #F4F3EE;
 }
 
 h1, h2, h3 {
-  font-family: "Montserrat", "sans-serif";
-  font-size: 24px;
+  font-family: "Share Tech Mono", "sans-serif";
+  font-size: 30px;
   line-height: 40px;
   margin: 5px;
+  letter-spacing: 3px
 }
 
 ul {
@@ -37,3 +46,11 @@ ul {
   margin-top: 0;
   margin: 0;
 }
+
+a {
+  color: inherit;
+}
+
+
+
+
