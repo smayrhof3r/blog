@@ -42,7 +42,7 @@ body {
     bottom: 30px;
 }
 
-.footer-box{   
+.footer-box{
     margin: 2px 0 0 0;
     flex: 0 0 30px;
     width: 100%;
@@ -56,8 +56,6 @@ body {
 
 .post {
     margin: 20px 20vw;
-    min-height: 100px; 
+    min-height: 100px;
     height: 30vh;
 }
-
-
